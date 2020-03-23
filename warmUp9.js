@@ -4,6 +4,13 @@
 //1. Write a JavaScript function to check whether an `input` is an array or not
 // ex isArray([1,2])=>true
 //    isArray(5)=>false
+function isArray(arr){
+	for(var i=0;i<arr.length;i++){
+		return true;
+	}
+	
+	return false;
+}
 
 // **************** git status ****************
 // **************** git add fileName.js ****************
@@ -11,11 +18,15 @@
 // **************** git commit -m "your message" ****************
 // **************** git status ****************
 // **************** git push origin master ****************
+// /2-Write a JavaScript function to get the first n element of an array.
+//   /ex  first([1,2,3],1)=>[1]
+///    first([1,2,3,4]2)=>[1,2]
 
-//2-Write a JavaScript function to get the first n element of an array.
-//ex  first([1,2,3],1)=>[1]
-//    first([1,2,3,4]2)=>[1,2]
-
+function firstElement(arr){
+	for (var i=0;i<arr.length;i++){
+	}
+	return arr[0];
+}
 // **************** git status ****************
 // **************** git add fileName.js ****************
 // **************** git status ****************
