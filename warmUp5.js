@@ -2,7 +2,12 @@
 // - takes 2 arguments, both numbers.
 // - returns whichever number is the greater (higher) number.
 // ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
-
+function greaterNum(a,b){
+	if (a >b) {
+		return "The greater number of "+ a+" and "+b+" is "+a;
+	}
+	return "The greater number of "+a+" and "+b+" is "+b
+}
 // 2) Write a function named isEven using  for loop that
 // -  iterate from x to y.
 // -  return array contain the even values,
